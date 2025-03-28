@@ -45,13 +45,15 @@ h1 {
 
 .text {
     font-size: 1.2rem;
-    margin: 0.5rem;
+    margin: 1rem;
+    padding: 1rem 2rem;
     text-align: left;
     color: #333333;
     line-height: 1.4;
-    max-width: 90%; /* Mehr Textbreite innerhalb der Box */
-    padding-left: 0;
-    margin-left: 0;
+    max-width: 60%;
+    background: rgba(255, 255, 255, 0.8); /* Heller transparenter Hintergrund */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Leichter Schatten */
 }
 
 p {
