@@ -12,16 +12,17 @@ body {
 }
 
 .header {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: bold;
-    margin: 4rem 0;
-    padding: 1rem;
+    margin: 6rem 0;
+    padding: 2rem;
     background: #ffffff;
     color: #89DE00;
     position: absolute;
     top: 2rem;
     left: 2rem;
     border-radius: 5px;
+    max-width: 60%;
 }
 
 .container {
@@ -47,6 +48,14 @@ h1 {
     margin: 2rem 0;
     text-align: center;
     color: #89DE00;
+}
+
+.text {
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: left;
+    color: #89DE00;
+    line-height: 1.5;
 }
 
 p {
