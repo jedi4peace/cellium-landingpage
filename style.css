@@ -49,6 +49,13 @@ body {
 }
 
 .image-container {
-    width: 40%; /* Bild verkleinert */
+    width: 100%; /* Container bleibt flexibel */
     margin: 2rem 0;
+    display: flex;
+    justify-content: center; /* Bild zentrieren */
+}
+
+.image-container img {
+    width: 40%; /* Verkleinere das Bild auf 40% der Containerbreite */
+    height: auto; /* Behalte das Seitenverhältnis bei */
 }
