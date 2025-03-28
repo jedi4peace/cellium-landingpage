@@ -45,7 +45,16 @@ body {
     font-size: 1.2rem;
     margin: 2rem 0;
     text-align: left;
-    color: #89DE00;
+    color: #333333; /* Grauer Text */
+}
+
+.contact a {
+    color: #89DE00; /* Grüner Link */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 
 .image-container {
