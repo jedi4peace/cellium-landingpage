@@ -81,6 +81,8 @@ body {
         position: relative; /* Kein Fixieren mehr */
         display: block;
         top: 1rem;
+        left: 50%; /* Logo in die Mitte verschieben */
+        transform: translateX(-50%); /* Exakte Zentrierung */
     }
 
     .header {
