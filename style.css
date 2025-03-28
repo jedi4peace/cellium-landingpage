@@ -69,13 +69,16 @@ body {
     .header {
         font-size: 4rem;
         text-align: center;
+        margin-top: 2rem; /* Mehr Platz oben */
     }
 
     .logo {
         width: 150px;
-        top: 1rem;
-        right: 1rem;
-        position: fixed; /* Logo fixiert, um Überlappung zu vermeiden */
+        margin: 1rem auto;
+        position: relative; /* Kein Sticky-Effekt */
+        top: 0;
+        right: 0;
+        display: block;
     }
 
     .container {
@@ -98,6 +101,8 @@ body {
     }
 
     .image-container img {
-        width: 60%; /* Größere Bildgröße für mobile Ansicht */
+        width: 100%; /* Volle Breite auf Mobilgeräten */
+        height: auto;
+        object-fit: cover; /* Zuschneiden, um den Raum besser zu füllen */
     }
 }
