@@ -19,10 +19,10 @@ body {
 }
 
 .logo {
-    position: right;
-    top: 6rem;
-    right: 6rem;
-    width: 400px;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 200px; /* Vergrößertes Logo */
 }
 
 .container {
@@ -49,6 +49,6 @@ body {
 }
 
 .image-container {
-    width: 60%;
+    width: 40%; /* Bild verkleinert */
     margin: 2rem 0;
 }
