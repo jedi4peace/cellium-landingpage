@@ -3,74 +3,52 @@ body {
     background: #f4f4f4;
     color: #333333;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     min-height: 100vh;
 }
 
 .header {
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: bold;
     color: #89DE00;
     margin-bottom: 1rem;
 }
 
-.container {
-    text-align: left;
-    padding: 4rem;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    max-width: 60%; /* Box schmaler gemacht */
-    margin: 3rem 0 3rem 2rem; /* Linksbündig */
-}
-
 .logo {
     position: absolute;
     top: 1rem;
-    right: 1rem;
-    width: 120px;
+    left: 1rem;
+    width: 100px;
 }
 
-h1 {
-    font-size: 4rem;
-    font-weight: bold;
+.container {
+    text-align: left;
+    padding: 2rem;
+    max-width: 80%;
     margin: 2rem 0;
-    text-align: center;
-    color: #89DE00;
 }
 
 .text {
-    font-size: 1.2rem;
-    margin: 1rem;
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
     text-align: left;
     color: #333333;
-    line-height: 1.4;
-    max-width: 30%; /* Erzwingt den früheren Umbruch */
-    word-wrap: break-word; /* Umbruch innerhalb der Box */
+    line-height: 1.6;
+    max-width: 60%;
 }
 
-p {
-    font-size: 1.5rem;
-    margin: 1rem 0;
-    text-align: center;
+.contact {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    text-align: left;
     color: #89DE00;
 }
 
-footer {
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    color: #ffffff;
-}
-
-a {
-    color: #89DE00;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+.image-container {
+    width: 100%;
+    margin: 2rem 0;
 }
