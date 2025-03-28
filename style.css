@@ -21,7 +21,7 @@ body {
 .logo {
     position: right;
     top: 6rem;
-    left: 6rem;
+    right: 6rem;
     width: 400px;
 }
 
@@ -49,6 +49,6 @@ body {
 }
 
 .image-container {
-    width: 100%;
+    width: 60%;
     margin: 2rem 0;
 }
