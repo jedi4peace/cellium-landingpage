@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background: #333333;
-    color: #89DE00;
+    background: #f4f4f4;
+    color: #333333;
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,6 +9,19 @@ body {
     align-items: center;
     justify-content: flex-start;
     min-height: 100vh;
+}
+
+.header {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 4rem 0;
+    padding: 1rem;
+    background: #ffffff;
+    color: #89DE00;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    border-radius: 5px;
 }
 
 .container {
@@ -25,7 +38,7 @@ body {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    width: 100px;
+    width: 120px;
 }
 
 h1 {
