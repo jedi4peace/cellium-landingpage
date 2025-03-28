@@ -56,7 +56,7 @@ body {
 }
 
 .image-container img {
-    width: 60%; /* Bild zurück auf ursprüngliche Größe */
+    width: 100%; /* Bild zurück auf ursprüngliche Größe */
     height: auto; /* Behalte das Seitenverhältnis bei */
 }
 
