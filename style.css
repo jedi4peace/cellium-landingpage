@@ -75,19 +75,18 @@ body {
         align-items: center;
     }
 
+    .logo {
+        width: 150px;
+        margin: 0;
+        position: absolute; /* Fixiert oben links */
+        top: 1rem;
+        left: 1rem;
+    }
+
     .header {
         font-size: 4rem;
         text-align: center;
-        margin-top: 2rem; /* Mehr Platz oben */
-    }
-
-    .logo {
-        width: 150px;
-        margin: 1rem auto;
-        position: relative; /* Kein Sticky-Effekt */
-        top: 0;
-        right: 0;
-        display: block;
+        margin-top: 6rem; /* Mehr Platz unter dem fixierten Logo */
     }
 
     .container {
