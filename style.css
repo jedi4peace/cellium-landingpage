@@ -56,7 +56,7 @@ body {
 }
 
 .image-container img {
-    width: 40%; /* Verkleinere das Bild auf 40% der Containerbreite */
+    width: 60%; /* Bild zurück auf ursprüngliche Größe */
     height: auto; /* Behalte das Seitenverhältnis bei */
 }
 
@@ -75,6 +75,7 @@ body {
         width: 150px;
         top: 1rem;
         right: 1rem;
+        position: fixed; /* Logo fixiert, um Überlappung zu vermeiden */
     }
 
     .container {
@@ -97,6 +98,6 @@ body {
     }
 
     .image-container img {
-        width: 80%; /* Größeres Bild auf mobilen Geräten */
+        width: 60%; /* Größere Bildgröße für mobile Ansicht */
     }
 }
