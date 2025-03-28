@@ -24,8 +24,8 @@ body {
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    max-width: 80%;
-    margin: 6rem auto;
+    max-width: 60%; /* Box schmaler gemacht */
+    margin: 6rem 0 6rem 2rem; /* Linksbündig */
 }
 
 .logo {
@@ -49,9 +49,9 @@ h1 {
     text-align: left;
     color: #333333;
     line-height: 1.4;
-    max-width: 40%;
+    max-width: 90%; /* Mehr Textbreite innerhalb der Box */
+    padding-left: 0;
     margin-left: 0;
-    padding-left: 2rem;
 }
 
 p {
