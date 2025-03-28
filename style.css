@@ -77,16 +77,16 @@ body {
 
     .logo {
         width: 150px;
-        margin: 0;
-        position: absolute; /* Fixiert oben links */
+        margin: 0 auto; /* Zentriere das Logo */
+        position: relative; /* Kein Fixieren mehr */
+        display: block;
         top: 1rem;
-        left: 1rem;
     }
 
     .header {
         font-size: 4rem;
         text-align: center;
-        margin-top: 6rem; /* Mehr Platz unter dem fixierten Logo */
+        margin-top: 2rem; /* Weniger Abstand, da Logo jetzt mittig ist */
     }
 
     .container {
