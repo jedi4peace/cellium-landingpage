@@ -19,10 +19,10 @@ body {
 }
 
 .logo {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    width: 100px;
+    position: right;
+    top: 6rem;
+    left: 6rem;
+    width: 400px;
 }
 
 .container {
